@@ -20,12 +20,13 @@
       "preview_bucket_name": "my-emdash-media"
     }
   ],
+  "kv_namespaces": [        // 👈 add this block
+    {
+      "binding": "SESSION",
+      "id": "31973cec28f940a0839a3a946fb5a6e5"
+    }
+  ],
   "observability": {
     "enabled": true
   }
-  // "worker_loaders": [
-  //   {
-  //     "binding": "LOADER"
-  //   }
-  // ]
 }
